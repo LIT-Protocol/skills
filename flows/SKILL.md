@@ -7,12 +7,6 @@ description: Publish and consume paid JavaScript functions on Lit Protocol's TEE
 
 Publish JavaScript functions as paid API endpoints running in Lit Protocol's TEE. One command to publish, automatic MCP server, built-in payments.
 
-## Install
-
-```bash
-npx -y @lit-protocol/flows login
-```
-
 ## Publish a flow
 
 Write a `.js` file — your code runs inside `async function main(params) { ... }`:
